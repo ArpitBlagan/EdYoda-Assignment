@@ -19,7 +19,7 @@ function App() {
           <img src={vector}/>
         </div>
         <div style={{marginLeft:'64px',marginRight:'64px',height:'19px',width:'46px'}}>Log in</div>
-        <button className='btn ' style={{marginRight:'64px',fontWeight:'30px',color:'white'}}>Join Now</button>
+        <button className='btn ' style={{marginRight:'64px',fontWeight:'30px',color:'white',cursor:'pointer'}}>Join Now</button>
       </div>
       </div>
       <Content/>
