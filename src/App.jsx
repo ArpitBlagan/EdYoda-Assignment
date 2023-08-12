@@ -18,7 +18,7 @@ function App() {
         <div style={{marginLeft:'64px'}}>
           <img src={vector}/>
         </div>
-        <div style={{marginLeft:'64px',marginRight:'64px',height:'19px',width:'46px'}}>Log in</div>
+        <div style={{marginLeft:'64px',marginRight:'64px',height:'19px',width:'46px',cursor:'pointer'}}>Log in</div>
         <button className='btn ' style={{marginRight:'64px',fontWeight:'30px',color:'white',cursor:'pointer'}}>Join Now</button>
       </div>
       </div>
