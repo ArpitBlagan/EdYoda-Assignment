@@ -96,9 +96,9 @@ const Pricing = () => {
     </div>
     <div style={{marginTop:'10px',marginBottom:'10px',display:'flex',flexDirection:'row',justifyContent:'space-between'}}>
       <button style={{width:'242px',height:'56px',borderRadius:'4px',color:'rgba(247, 113, 113, 1)',backgroundColor:'white',
-      borderStyle:'solid',borderWidth:'2px',borderColor:'rgba(247, 113, 113, 1)',fontSize:'16px',lineHeight:'19px'}}>Cancle</button>
+      borderStyle:'solid',borderWidth:'2px',borderColor:'rgba(247, 113, 113, 1)',fontSize:'16px',lineHeight:'19px',cursor:'pointer'}}>Cancle</button>
       <button style={{width:'242px',height:'56px',borderRadius:'4px',backgroundColor:'rgba(71, 186, 104, 1)',
-      fontSize:'16px',lineHeight:'19px',borderColor:'rgba(71, 186, 104, 1)',color:'white'}}>
+      fontSize:'16px',lineHeight:'19px',borderColor:'rgba(71, 186, 104, 1)',color:'white',cursor:'pointer'}}>
       Proceed to Pay</button>
     </div>
     <div style={{marginTop:'16px'}}><img src={pay}/></div>
